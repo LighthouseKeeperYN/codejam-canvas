@@ -10,7 +10,6 @@ html {
   // This defines 1em
   // 62.5% of 16px = 10px = 1em
   font-size: 62.5%;
-  color: $color-black-light;
 
   @include respond(widescreen) {
     font-size: 75%; // 1rem = 12px, 12/16 = 75%
@@ -31,7 +30,6 @@ html {
 
 body {
   box-sizing: border-box;
-  background-color: $color-white;
 }
 
 h1 {

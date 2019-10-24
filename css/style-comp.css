@@ -127,3 +127,7 @@ button {
   .work-area__colors {
     margin-left: 2.9rem;
     margin-top: 9.2rem; }
+  .work-area__images {
+    position: absolute;
+    top: 14%;
+    right: 2.9rem; }

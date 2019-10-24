@@ -4,6 +4,9 @@
 
 @import "base/base";
 @import "base/typography";
-@import "base/fonts";
 
-@import "pages/home";
+@import "components/bar";
+@import "components/canvas";
+@import "components/tool-panel";
+
+@import "layout/work-area";

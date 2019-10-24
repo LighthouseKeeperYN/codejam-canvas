@@ -1,0 +1,16 @@
+.work-area {
+  position: relative;
+
+  background-color: $color-white;
+  min-height: 100vh;
+
+  &__tools {
+    margin-left: 2.9rem;
+    margin-top: 7.9rem;
+  }
+
+  &__colors {
+    margin-left: 2.9rem;
+    margin-top: 9.2rem;
+  }
+}

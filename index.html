@@ -8,64 +8,65 @@
   <title>codejam-canvas</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
-  <header class="app-bar">
-    <div class="nav-icon"></div>
-    <h1 class="app-bar__title">CodeJam - Pallete</h1>
-    <div class="menu-icon"></div>
-  </header>
-
   <div class="work-area">
-    <div class="work-area__tools tool-block">
+      <div class="app-bar">
+          <button class="nav-icon app-bar__nav-button"></button>
+          <h1 class="app-bar__title">CodeJam - Pallete</h1>
+          <button class="menu-icon app-bar__menu-button"></button>
+        </div>
+
+    <div class="work-area__tools tool-panel">
       <ul class="tool-list">
         <li class="tool-item">
-          <div class="paint-list__icon"></div>
-          <p class="paint-list__text"></p>
+          <img class="tool-item__icon" src="assets/img/paint-bucket.svg"></img>
+          <p class="tool-item__text">Paint bucket</p>
         </li>
 
         <li class="tool-item">
-          <div class="paint-list__icon"></div>
-          <p class="paint-list__text"></p>
+          <img class="tool-item__icon" src="assets/img/color-picker.svg"></img>
+          <p class="tool-item__text">Choose color</p>
         </li>
       </ul>
 
       <ul class="tool-list">
         <li class="tool-item">
-          <div class="paint-list__icon"></div>
-          <p class="paint-list__text"></p>
+          <img class="tool-item__icon" src="assets/img/move.svg"></img>
+          <p class="tool-item__text">Move</p>
         </li>
 
         <li class="tool-item">
-          <div class="paint-list__icon"></div>
-          <p class="paint-list__text"></p>
+          <img class="tool-item__icon" src="assets/img/transform.svg"></img>
+          <p class="tool-item__text">Transform</p>
         </li>
       </ul>
     </div>
 
-    <div class="work-area__colors tool-block">
+    <div class="work-area__colors tool-panel">
       <ul class="tool-list">
         <li class="tool-item">
-          <div class="paint-list__icon"></div>
-          <p class="paint-list__text"></p>
+          <div class="tool-item__icon tool-item__color-circle tool-item__color-circle--grey"></div>
+          <p class="tool-item__text">Current color</p>
         </li>
 
         <li class="tool-item">
-          <div class="paint-list__icon"></div>
-          <p class="paint-list__text"></p>
+          <div class="tool-item__icon tool-item__color-circle tool-item__color-circle--green"></div>
+          <p class="tool-item__text">Prev color</p>
         </li>
       </ul>
 
       <ul class="tool-list">
         <li class="tool-item">
-          <div class="paint-list__icon"></div>
-          <p class="paint-list__text"></p>
+          <div class="tool-item__icon tool-item__color-circle tool-item__color-circle--red"></div>
+          <p class="tool-item__text">red</p>
         </li>
 
         <li class="tool-item">
-          <div class="paint-list__icon"></div>
-          <p class="paint-list__text"></p>
+          <div class="tool-item__icon tool-item__color-circle tool-item__color-circle--blue"></div>
+          <p class="tool-item__text">blue</p>
         </li>
       </ul>
     </div>
